@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Tính chỉ số cân nặng của cơ thể</title>
+</head>
+<body>
+<script>
+    let wei = parseFloat(prompt("Nhap can nang co the vao:"));
+    let hig = parseFloat(prompt("Nhap vao chieu cao co the:"));
+    let BMI;
+    BMI= wei / (hig*hig);
+    if (BMI<18.5)
+    {
+        alert("Underweight");
+    }
+    else if ( BMI <= 25 ){alert("Normal");}
+    else if ( BMI <= 30 ) {alert("Overweight");}
+    else{ alert(" Obese");}
+</script>
+</body>
+</html>
